@@ -1,0 +1,37 @@
+17:16:01[2.0.0.3] 订单区服：天空之城   卖家角色名：我是MM
+17:24:34[2.0.0.5] System.Char[]
+17:24:55[2.0.0.5] System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 GTR.QJSJ2.StartToWork() 位置 D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\Main.cs:行号 127
+17:24:55[2.0.0.5] 移交状态=3120
+
+17:24:55[2.0.0.5] 端口为0
+17:25:02[2.0.0.5] 2
+17:29:05[2.0.0.5] 123456
+17:32:59[2.0.0.5] System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 GTR.QJSJ2.StartToWork() 位置 D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\Main.cs:行号 134
+17:33:00[2.0.0.5] 移交状态=3120
+
+17:33:00[2.0.0.5] 端口为0
+17:33:16[2.0.0.5] 0
+17:35:41[2.0.0.5] 1 
+17:37:48[2.0.0.5] 1 
+17:38:44[2.0.0.5] System.InvalidCastException: 指定的转换无效。
+   在 GTR.QJSJ2.StartToWork() 位置 D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\Main.cs:行号 133
+17:38:44[2.0.0.5] 移交状态=3120
+
+17:38:44[2.0.0.5] 端口为0
+17:38:59[2.0.0.5] System.InvalidCastException: 指定的转换无效。
+   在 GTR.QJSJ2.StartToWork() 位置 D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\Main.cs:行号 133
+17:49:29[2.0.0.5] a
+17:49:29[2.0.0.5] b
+17:49:29[2.0.0.5] c
+17:49:29[2.0.0.5] 1
+17:49:29[2.0.0.5] 2
+17:49:29[2.0.0.5] 3
+15:48:53[2.0.1.5] System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GTR.ImageTool.FindText(IntPtr hWnd, String strText, Color colorFont, String fontName, Int32 fontSize, FontStyle fontStyle, Int32 distanceU, Int32 distanceA, RECT dstRect, Int32 errorValue) 位置 D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\GtrTool\ImageTool.cs:行号 847
+   在 GTR.QJSJ2.StartToWork() 位置 D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\Main.cs:行号 127
+15:48:53[2.0.1.5] 移交状态=3120
+
+15:48:53[2.0.1.5] 端口为0
+15:48:55[2.0.1.5] 关闭残留窗口

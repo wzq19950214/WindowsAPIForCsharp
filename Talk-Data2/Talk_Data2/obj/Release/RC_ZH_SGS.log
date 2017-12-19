@@ -1,0 +1,6 @@
+15:38:11[1.0.3.7] 启动脚本文件所在路径的首字母：D
+15:38:11[1.0.3.7] System.DllNotFoundException: 无法加载 DLL“KeyMouseHelper.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 GTR.KmHelper.InitKeyMouseDriver()
+   在 GTR.KeyMouse.InitKeyMouse() 位置 D:\Personal\Desktop\ZH_LOL_DUAL\ZH_LOL_DUAL\KeyMouse\KeyMouse.cs:行号 19
+   在 GTR.LOL.GameProc() 位置 D:\Personal\Desktop\ZH_LOL_DUAL\ZH_LOL_DUAL\LOL.cs:行号 326
+   在 GTR.LOL.StartToWork() 位置 D:\Personal\Desktop\ZH_LOL_DUAL\ZH_LOL_DUAL\LOL.cs:行号 218

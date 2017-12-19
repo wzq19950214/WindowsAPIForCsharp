@@ -1,0 +1,12 @@
+D:\Personal\Desktop\LOL韩服\ZH_LOL_DUAL\ZH_LOL_DUAL\bin\Exec\ZH_LOL_DUAL.exe.config
+D:\Personal\Desktop\LOL韩服\ZH_LOL_DUAL\ZH_LOL_DUAL\obj\Release\ZH_LOL_DUAL.exe
+D:\Personal\Desktop\LOL韩服\ZH_LOL_DUAL\ZH_LOL_DUAL\obj\Release\ZH_LOL_DUAL.pdb
+D:\Personal\Desktop\LOL韩服\ZH_LOL_DUAL\ZH_LOL_DUAL\obj\Release\ZH_LOL_DUAL.XmlSerializers.dll
+D:\Personal\Desktop\LOL韩服\ZH_LOL_DUAL\ZH_LOL_DUAL\bin\Exec\ZH_LOL_DUAL.exe
+D:\Personal\Desktop\LOL韩服\ZH_LOL_DUAL\ZH_LOL_DUAL\bin\Exec\ZH_LOL_DUAL.XmlSerializers.dll
+D:\Personal\Desktop\LOL韩服\ZH_LOL_DUAL\ZH_LOL_DUAL\bin\Exec\ZH_LOL_DUAL.pdb
+D:\Personal\Desktop\LOL韩服\ZH_KLOL_DUAL\bin\Exec\ZH_KLOL_DUAL.exe.config
+D:\Personal\Desktop\LOL韩服\ZH_KLOL_DUAL\obj\Release\ZH_KLOL_DUAL.exe
+D:\Personal\Desktop\LOL韩服\ZH_KLOL_DUAL\obj\Release\ZH_KLOL_DUAL.pdb
+D:\Personal\Desktop\LOL韩服\ZH_KLOL_DUAL\bin\Exec\ZH_KLOL_DUAL.exe
+D:\Personal\Desktop\LOL韩服\ZH_KLOL_DUAL\bin\Exec\ZH_KLOL_DUAL.pdb

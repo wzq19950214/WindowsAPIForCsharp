@@ -1,0 +1,8 @@
+D:\Personal\Desktop\RC_ZH_SGS1\RC_ZH_SGS\RC_ZH_SGS\bin\Exec\ZH_LOL_DUAL.exe
+D:\Personal\Desktop\RC_ZH_SGS1\RC_ZH_SGS\RC_ZH_SGS\bin\Exec\ZH_LOL_DUAL.pdb
+D:\Personal\Desktop\RC_ZH_SGS1\RC_ZH_SGS\RC_ZH_SGS\obj\Debug\ResolveAssemblyReference.cache
+D:\Personal\Desktop\RC_ZH_SGS1\RC_ZH_SGS\RC_ZH_SGS\obj\Debug\ZH_LOL_DUAL.exe
+D:\Personal\Desktop\RC_ZH_SGS1\RC_ZH_SGS\RC_ZH_SGS\obj\Debug\ZH_LOL_DUAL.pdb
+D:\Personal\Desktop\RC_ZH_SGS1\RC_ZH_SGS\RC_ZH_SGS\obj\Release\ResolveAssemblyReference.cache
+D:\Personal\Desktop\RC_ZH_SGS1\RC_ZH_SGS\RC_ZH_SGS\obj\Release\ZH_LOL_DUAL.exe
+D:\Personal\Desktop\RC_ZH_SGS1\RC_ZH_SGS\RC_ZH_SGS\obj\Release\ZH_LOL_DUAL.pdb

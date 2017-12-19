@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Application/!svn/ver/7756/Dev/ZH_GTR/RC_ZH_SGS/RC_ZH_SGS/Win32API
+END
+User32API.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Application/!svn/ver/7756/Dev/ZH_GTR/RC_ZH_SGS/RC_ZH_SGS/Win32API/User32API.cs
+END
+Kernel32API.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Application/!svn/ver/7756/Dev/ZH_GTR/RC_ZH_SGS/RC_ZH_SGS/Win32API/Kernel32API.cs
+END
+Gdi32API.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Application/!svn/ver/7756/Dev/ZH_GTR/RC_ZH_SGS/RC_ZH_SGS/Win32API/Gdi32API.cs
+END
+Struct.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Application/!svn/ver/7756/Dev/ZH_GTR/RC_ZH_SGS/RC_ZH_SGS/Win32API/Struct.cs
+END
+Shell32API.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Application/!svn/ver/7756/Dev/ZH_GTR/RC_ZH_SGS/RC_ZH_SGS/Win32API/Shell32API.cs
+END
+Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Application/!svn/ver/7756/Dev/ZH_GTR/RC_ZH_SGS/RC_ZH_SGS/Win32API/Enums.cs
+END

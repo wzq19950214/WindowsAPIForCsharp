@@ -1,0 +1,15 @@
+D:\Personal\Desktop\Talk-Data2\ZH_MHXY_DUAL\bin\Exec\Talk_Data2.exe.config
+D:\Personal\Desktop\Talk-Data2\ZH_MHXY_DUAL\bin\Exec\Talk_Data2.exe
+D:\Personal\Desktop\Talk-Data2\ZH_MHXY_DUAL\bin\Exec\Talk_Data2.pdb
+D:\Personal\Desktop\Talk-Data2\ZH_MHXY_DUAL\obj\Release\Talk_Data2.Properties.Resources.resources
+D:\Personal\Desktop\Talk-Data2\ZH_MHXY_DUAL\obj\Release\Talk_Data2.csproj.GenerateResource.Cache
+D:\Personal\Desktop\Talk-Data2\ZH_MHXY_DUAL\obj\Release\Talk_Data2.exe
+D:\Personal\Desktop\Talk-Data2\ZH_MHXY_DUAL\obj\Release\Talk_Data2.pdb
+D:\Personal\Desktop\Talk-Data2\Talk_Data2\bin\Exec\Talk_Data2.exe.config
+D:\Personal\Desktop\Talk-Data2\Talk_Data2\obj\Release\Talk_Data2.exe
+D:\Personal\Desktop\Talk-Data2\Talk_Data2\obj\Release\Talk_Data2.pdb
+D:\Personal\Desktop\Talk-Data2\Talk_Data2\bin\Exec\Talk_Data2.exe
+D:\Personal\Desktop\Talk-Data2\Talk_Data2\bin\Exec\Talk_Data2.pdb
+D:\Personal\Desktop\Talk-Data2\Talk_Data2\obj\Release\Talk_Data2.Properties.Resources.resources
+D:\Personal\Desktop\Talk-Data2\Talk_Data2\obj\Release\Talk_Data2.csproj.GenerateResource.Cache
+D:\Personal\Desktop\Talk-Data2\Talk_Data2\obj\Release\Talk_Data2.SplashTip.resources

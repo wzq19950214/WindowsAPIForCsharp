@@ -1,0 +1,10 @@
+D:\vs程序\VS2005\PicImage\PicImage\bin\Release\PicImage.exe
+D:\vs程序\VS2005\PicImage\PicImage\bin\Release\PicImage.pdb
+D:\vs程序\VS2005\PicImage\PicImage\obj\Release\ResolveAssemblyReference.cache
+D:\vs程序\VS2005\PicImage\PicImage\obj\Release\PicImage.exe
+D:\vs程序\VS2005\PicImage\PicImage\obj\Release\PicImage.pdb
+D:\Personal\Desktop\PicImage\PicImage\obj\Release\PicImage.exe
+D:\Personal\Desktop\PicImage\PicImage\obj\Release\PicImage.pdb
+D:\Personal\Desktop\PicImage\PicImage\bin\Release\PicImage.exe
+D:\Personal\Desktop\PicImage\PicImage\bin\Release\PicImage.pdb
+D:\Personal\Desktop\PicImage\PicImage\obj\Release\ResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RC_ZH_LOL.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ZH_LOL_DUAL_WebReference_VideoStream" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.71.88:8010/VideoStream.asmx</Value>
+    </Setting>
+    <Setting Name="ZH_LOL_DUAL_WebReference1_VideoStream" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.71.88:8010/VideoStream.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

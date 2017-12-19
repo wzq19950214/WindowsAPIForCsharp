@@ -1,0 +1,37 @@
+JavaScriptSerializer js = new JavaScriptSerializer();   //实例化一个能够序列化数据的类
+            LOL list = js.Deserialize<LOL>(aaaa);///aaaa为json字符串
+            List<ChampionList> ToJsonMy = list.ChampionList;
+
+public struct LOL
+        {
+            public string AccountId
+            { get; set; }
+            public string Summoner
+            { get; set; }
+            public string Level
+            { get; set; }
+            public string EmailStatus
+            { get; set; }
+            public string IpBalance
+            { get; set; }
+            public string Refunds
+            { get; set; }
+            public string PreviousSeasonRank
+            { get; set; }
+            public string SoloQRank
+            { get; set; }
+            public List<ChampionList> ChampionList;//数组处理       
+        };
+        public struct ChampionList
+        {
+            public string Id
+            { get; set; }
+            public string Name
+            { get; set; }
+            public string DisplayName
+            { get; set; }
+            public string PurchaseDate
+            { get; set; }
+            public string Skins
+            { get; set; }
+        }

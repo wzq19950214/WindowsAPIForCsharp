@@ -1,0 +1,8 @@
+D:\Personal\Desktop\ZH_MHXY_DUAL\ZH_MHXY_DUAL\bin\Exec\ZH_MHXY_DUAL.exe.config
+D:\Personal\Desktop\ZH_MHXY_DUAL\ZH_MHXY_DUAL\bin\Exec\ZH_MHXY_DUAL.exe
+D:\Personal\Desktop\ZH_MHXY_DUAL\ZH_MHXY_DUAL\bin\Exec\ZH_MHXY_DUAL.pdb
+D:\Personal\Desktop\ZH_MHXY_DUAL\ZH_MHXY_DUAL\obj\Release\ZH_MHXY_DUAL.exe
+D:\Personal\Desktop\ZH_MHXY_DUAL\ZH_MHXY_DUAL\obj\Release\ZH_MHXY_DUAL.pdb
+D:\Personal\Desktop\ZH_MHXY_DUAL\ZH_MHXY_DUAL\obj\Release\RC_ZH_MHXY.Properties.Resources.resources
+D:\Personal\Desktop\ZH_MHXY_DUAL\ZH_MHXY_DUAL\obj\Release\ZH_MYXY_DUAL.csproj.GenerateResource.Cache
+D:\Personal\Desktop\ZH_MHXY_DUAL\ZH_MHXY_DUAL\obj\Release\ZH_MYXY_DUAL.csprojResolveAssemblyReference.cache

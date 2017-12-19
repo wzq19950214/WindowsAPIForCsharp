@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="RequestChannel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestChannelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RequestChannelResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseChannel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseChannelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CloseChannelResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Start">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StartResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="End">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EndResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RequestChannelSoapIn">
+    <wsdl:part name="parameters" element="tns:RequestChannel" />
+  </wsdl:message>
+  <wsdl:message name="RequestChannelSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestChannelResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloseChannelSoapIn">
+    <wsdl:part name="parameters" element="tns:CloseChannel" />
+  </wsdl:message>
+  <wsdl:message name="CloseChannelSoapOut">
+    <wsdl:part name="parameters" element="tns:CloseChannelResponse" />
+  </wsdl:message>
+  <wsdl:message name="StartSoapIn">
+    <wsdl:part name="parameters" element="tns:Start" />
+  </wsdl:message>
+  <wsdl:message name="StartSoapOut">
+    <wsdl:part name="parameters" element="tns:StartResponse" />
+  </wsdl:message>
+  <wsdl:message name="EndSoapIn">
+    <wsdl:part name="parameters" element="tns:End" />
+  </wsdl:message>
+  <wsdl:message name="EndSoapOut">
+    <wsdl:part name="parameters" element="tns:EndResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestChannelHttpGetIn">
+    <wsdl:part name="OrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestChannelHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CloseChannelHttpGetIn">
+    <wsdl:part name="OrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CloseChannelHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="StartHttpGetIn">
+    <wsdl:part name="OrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StartHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="EndHttpGetIn">
+    <wsdl:part name="OrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EndHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestChannelHttpPostIn">
+    <wsdl:part name="OrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestChannelHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CloseChannelHttpPostIn">
+    <wsdl:part name="OrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CloseChannelHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="StartHttpPostIn">
+    <wsdl:part name="OrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StartHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="EndHttpPostIn">
+    <wsdl:part name="OrderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EndHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="VideoStreamSoap">
+    <wsdl:operation name="RequestChannel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">请求开启频道(脚本调用)</wsdl:documentation>
+      <wsdl:input message="tns:RequestChannelSoapIn" />
+      <wsdl:output message="tns:RequestChannelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseChannel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">请求关闭频道(脚本调用)</wsdl:documentation>
+      <wsdl:input message="tns:CloseChannelSoapIn" />
+      <wsdl:output message="tns:CloseChannelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">开始传送视频流(前台调用)</wsdl:documentation>
+      <wsdl:input message="tns:StartSoapIn" />
+      <wsdl:output message="tns:StartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="End">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">结束传送视频流(前台调用)</wsdl:documentation>
+      <wsdl:input message="tns:EndSoapIn" />
+      <wsdl:output message="tns:EndSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="VideoStreamHttpGet">
+    <wsdl:operation name="RequestChannel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">请求开启频道(脚本调用)</wsdl:documentation>
+      <wsdl:input message="tns:RequestChannelHttpGetIn" />
+      <wsdl:output message="tns:RequestChannelHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseChannel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">请求关闭频道(脚本调用)</wsdl:documentation>
+      <wsdl:input message="tns:CloseChannelHttpGetIn" />
+      <wsdl:output message="tns:CloseChannelHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">开始传送视频流(前台调用)</wsdl:documentation>
+      <wsdl:input message="tns:StartHttpGetIn" />
+      <wsdl:output message="tns:StartHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="End">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">结束传送视频流(前台调用)</wsdl:documentation>
+      <wsdl:input message="tns:EndHttpGetIn" />
+      <wsdl:output message="tns:EndHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="VideoStreamHttpPost">
+    <wsdl:operation name="RequestChannel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">请求开启频道(脚本调用)</wsdl:documentation>
+      <wsdl:input message="tns:RequestChannelHttpPostIn" />
+      <wsdl:output message="tns:RequestChannelHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseChannel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">请求关闭频道(脚本调用)</wsdl:documentation>
+      <wsdl:input message="tns:CloseChannelHttpPostIn" />
+      <wsdl:output message="tns:CloseChannelHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">开始传送视频流(前台调用)</wsdl:documentation>
+      <wsdl:input message="tns:StartHttpPostIn" />
+      <wsdl:output message="tns:StartHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="End">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">结束传送视频流(前台调用)</wsdl:documentation>
+      <wsdl:input message="tns:EndHttpPostIn" />
+      <wsdl:output message="tns:EndHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="VideoStreamSoap" type="tns:VideoStreamSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RequestChannel">
+      <soap:operation soapAction="http://tempuri.org/RequestChannel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseChannel">
+      <soap:operation soapAction="http://tempuri.org/CloseChannel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <soap:operation soapAction="http://tempuri.org/Start" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="End">
+      <soap:operation soapAction="http://tempuri.org/End" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VideoStreamSoap12" type="tns:VideoStreamSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RequestChannel">
+      <soap12:operation soapAction="http://tempuri.org/RequestChannel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseChannel">
+      <soap12:operation soapAction="http://tempuri.org/CloseChannel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <soap12:operation soapAction="http://tempuri.org/Start" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="End">
+      <soap12:operation soapAction="http://tempuri.org/End" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VideoStreamHttpGet" type="tns:VideoStreamHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="RequestChannel">
+      <http:operation location="/RequestChannel" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseChannel">
+      <http:operation location="/CloseChannel" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <http:operation location="/Start" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="End">
+      <http:operation location="/End" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VideoStreamHttpPost" type="tns:VideoStreamHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="RequestChannel">
+      <http:operation location="/RequestChannel" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseChannel">
+      <http:operation location="/CloseChannel" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <http:operation location="/Start" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="End">
+      <http:operation location="/End" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VideoStream">
+    <wsdl:port name="VideoStreamSoap" binding="tns:VideoStreamSoap">
+      <soap:address location="http://192.168.71.88:8010/VideoStream.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VideoStreamSoap12" binding="tns:VideoStreamSoap12">
+      <soap12:address location="http://192.168.71.88:8010/VideoStream.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VideoStreamHttpGet" binding="tns:VideoStreamHttpGet">
+      <http:address location="http://192.168.71.88:8010/VideoStream.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VideoStreamHttpPost" binding="tns:VideoStreamHttpPost">
+      <http:address location="http://192.168.71.88:8010/VideoStream.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

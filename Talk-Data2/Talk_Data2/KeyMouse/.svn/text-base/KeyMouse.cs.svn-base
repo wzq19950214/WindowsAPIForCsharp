@@ -1,0 +1,255 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Runtime.InteropServices;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Threading;
+//using System.Net;
+namespace GTR
+{
+    [Flags]
+    enum MouseEventFlag : uint
+    {
+        Move = 0x0001,
+        LeftDown = 0x0002,
+        LeftUp = 0x0004,
+        RightDown = 0x0008,
+        RightUp = 0x0010,
+        MiddleDown = 0x0020,
+        MiddleUp = 0x0040,
+        XDown = 0x0080,
+        XUp = 0x0100,
+        Wheel = 0x0800,
+        VirtualDesk = 0x4000,
+        Absolute = 0x8000
+    }
+
+
+    public class KeyMouse
+    {
+        public struct RECT
+        {
+            public int left;
+            public int top;
+            public int right;
+            public int bottom;
+        }
+        [DllImport("user32.dll")]
+        static extern bool SetCursorPos(int X, int Y);
+        [DllImport("user32.dll")]
+        static extern void mouse_event(MouseEventFlag flags, int dx, int dy, uint data, UIntPtr extraInfo);
+        [DllImport("user32.dll", EntryPoint = "GetWindowRect")]
+        public static extern bool GetWindowRect(IntPtr hWnd, out RECT lpRect);
+
+        public static void SendStringKeys(string strText, int delayTime)
+        {
+            string strCh = "";
+            for (int i = 0; i < strText.Length; i++)
+            {
+                strCh += "{" + strText.Substring(i, 1) + "}";
+            }
+            SendKeys.SendWait(strCh);
+            SendKeys.Flush();
+            Thread.Sleep(delayTime);
+        }
+
+        public static void SendFunKey(char ch, bool ctrl, bool alt, bool shift, bool funKey)
+        {
+            String temp = "";
+            temp = string.Format("^{0}", ch);
+            if (ctrl) {  SendKeys.SendWait(temp);}
+            if (alt) {  SendKeys.SendWait(temp); }
+            if (shift) { SendKeys.SendWait(temp);}
+            SendKeys.Flush(); 
+            Sleep(20);
+        }
+
+        public static void SendTabKey()
+        {
+            SendKeys.SendWait("{TAB}");
+            SendKeys.Flush();
+        }
+
+        public static void SendEnterKey()
+        {
+            SendKeys.SendWait("{ENTER}");
+            SendKeys.Flush();
+        }
+
+        public static void SendEscKey()
+        {
+            SendKeys.SendWait("{ESC}"); 
+            SendKeys.Flush();
+        }
+        public static void SendCtrlC()
+        {
+            SendKeys.SendWait("^c");
+            SendKeys.Flush();
+        }
+
+        public static void SendCtrlV()
+        {
+            SendKeys.SendWait("^v");
+            SendKeys.Flush();
+        }
+
+        public static void SendCtrlA()
+        {
+            SendKeys.SendWait("^a"); 
+            SendKeys.Flush();
+        }
+
+        public static void SendBackSpaceKey(int times)
+        {
+            string temp = "";
+            temp = string.Format("{{BACKSPACE {0}}}",times);
+            SendKeys.SendWait(temp); 
+            Sleep(10);
+            SendKeys.Flush();
+        }
+
+        public static void SendDeleteKey(int times)
+        {
+            string temp = "";
+            temp = string.Format("{{DELETE {0}}}", times);
+            SendKeys.SendWait(temp);
+            Sleep(10);
+            SendKeys.Flush();
+        }
+
+        private static void Sleep(int time)
+        {
+            Thread.Sleep(time);
+        }
+
+
+        public static void MouseMove(IntPtr hWnd, Point pt)
+        {
+            if (User32API.IsWindow(hWnd))
+            {
+                RECT rect;
+                GetWindowRect(hWnd, out rect);
+                pt.X += rect.left;
+                pt.Y += rect.top;
+            }
+            SetCursorPos(pt.X, pt.Y);
+            Sleep(50);
+        }
+
+        public static void MouseMove(RECT rect,int x, int y)
+        {
+            x += rect.left;
+            y += rect.top;
+            SetCursorPos(x, y);
+            Sleep(50);
+        }
+        public static void MouseMove(IntPtr hWnd, int x, int y)
+        {
+            if (User32API.IsWindow(hWnd))
+            {
+                RECT rect;
+                GetWindowRect(hWnd, out rect);
+                x += rect.left;
+                y += rect.top;
+            }
+            SetCursorPos(x,y);
+            Sleep(50);
+        }
+        /// <summary>
+        /// 鼠标点击
+        /// </summary>
+        /// <param name="hWnd">窗口句柄</param>
+        /// <param name="x">x坐标</param>
+        /// <param name="y">y坐标</param>
+        /// <param name="tb">1：左键，2：右键</param>
+        /// <param name="tc">1：单击，2：双击</param>
+        /// <param name="sleepTime">延迟等待时间</param>
+       public static void MouseClick(IntPtr hWnd,int x, int y, uint tb, uint tc, int sleepTime)
+        {
+            MouseMove(hWnd, x, y);
+            MouseEventFlag MouseKeyDown = MouseEventFlag.LeftDown;
+            MouseEventFlag MouseKeyUp = MouseEventFlag.LeftUp;
+            switch (tb)
+            {
+                case 1:
+                    break;
+                case 2:
+                    MouseKeyDown = MouseEventFlag.RightDown;
+                    MouseKeyUp = MouseEventFlag.RightUp;
+                    break;
+                default:
+                    break;
+            }
+            switch (tc)
+            {
+                case 1:
+
+                    mouse_event(MouseKeyDown, 0, 0, 0, UIntPtr.Zero);//点击 
+                    Sleep(10);
+                    mouse_event(MouseKeyUp, 0,0, 0, UIntPtr.Zero);//抬起
+                    Sleep(sleepTime);
+                    break;
+                case 2:
+                    mouse_event(MouseKeyDown, 0,0, 0, UIntPtr.Zero);//点击 
+                    Sleep(10);
+                    mouse_event(MouseKeyUp, 0,0, 0, UIntPtr.Zero);//抬起
+                    Sleep(10);
+                    mouse_event(MouseKeyDown, 0,0, 0, UIntPtr.Zero);//点击 
+                    Sleep(10);
+                    mouse_event(MouseKeyUp, 0,0, 0, UIntPtr.Zero);//抬起
+                    Sleep(sleepTime);
+                    break;
+                default:
+                    break;
+            }
+        }
+        public enum TYPE_CLICK : uint
+        {
+            BUTTON_CLICK = 1,		//单击
+            BUTTON_DOUBLE_CLICK,		//双击
+            BUTTON_DOWN,				//按下
+            BUTTON_UP					//弹起
+        }
+        public enum TYPE_BUTTON : uint
+        {
+            L_BUTTON = 1,			//左键
+            R_BUTTON,					//右键
+            M_BUTTON					//中键
+        }
+        
+    }
+    //public class WinApi
+    //{
+    //    //public static UInt32 VK_ESCAPE = 0x1B;
+    //    //public static UInt32 VK_SHIFT = 0x10;
+    //    //public static UInt32 VK_CONTROL = 0x11;
+    //    //public static UInt32 VK_MENU = 0x12;
+    //    //public static UInt32 VK_LEFT = 0x25;
+    //    //public static UInt32 VK_UP = 0x26;
+    //    //public static UInt32 VK_RIGHT = 0x27;
+    //    //public static UInt32 VK_RETURN = 0x0D;
+    //    //public static UInt32 VK_BACK = 0x08;
+    //    //public static UInt32 VK_TAB = 0x09;
+    //    //public static UInt32 VK_DOWN = 0x28;
+    //    //public static UInt32 VK_PRINT = 0x2A;
+    //    //public static UInt32 VK_DELETE = 0x2E;
+
+    //    //[DllImport("Kernel32.dll", EntryPoint = "GetLastError", CallingConvention = CallingConvention.Winapi)]
+    //    //public static extern UInt32 GetLastError();
+
+    //    //[DllImport("user32.dll")]
+    //    //public static extern bool GetCursorPos(out Point pt);
+
+    //    //[DllImport("user32.dll", EntryPoint = "GetWindowRect")]
+    //    //public static extern bool GetWindowRect(IntPtr hWnd, out RECT lpRect);
+
+    //    public struct RECT
+    //    {
+    //        public int left;
+    //        public int top;
+    //        public int right;
+    //        public int bottom;
+    //    }
+    //}
+}

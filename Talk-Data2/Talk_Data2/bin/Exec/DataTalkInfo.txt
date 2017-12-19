@@ -1,0 +1,15 @@
+
+[Interval]
+<seconds>10</seconds> //∫∞ª∞º‰∏Ù£∫√Î
+
+[City]
+beijing,shanghai,guangzhou,shenzhen,hangzhou,tianjin,jinan
+hebei,heze
+[TalkData]
+123
+12345
+123456
+1234567
+123456789
+
+[End]

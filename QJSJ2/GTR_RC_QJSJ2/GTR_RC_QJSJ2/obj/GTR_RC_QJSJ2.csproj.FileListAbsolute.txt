@@ -1,0 +1,15 @@
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Debug\ResolveAssemblyReference.cache
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\bin\Debug\GTR_RC_QJSJ2.exe
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\bin\Debug\GTR_RC_QJSJ2.pdb
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Debug\GTR_RC_QJSJ2.exe
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Debug\GTR_RC_QJSJ2.pdb
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\bin\Release\GTR_RC_QJSJ2.exe
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\bin\Release\GTR_RC_QJSJ2.pdb
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Release\ResolveAssemblyReference.cache
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Release\GTR_RC_QJSJ2.exe
+D:\Personal\Desktop\项目\脚本\寄售\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Release\GTR_RC_QJSJ2.pdb
+D:\Personal\Desktop\奇迹世界2\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Release\GTR_RC_QJSJ2.exe
+D:\Personal\Desktop\奇迹世界2\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Release\GTR_RC_QJSJ2.pdb
+D:\Personal\Desktop\奇迹世界2\GTR_RC_QJSJ2\GTR_RC_QJSJ2\bin\Release\GTR_RC_QJSJ2.exe
+D:\Personal\Desktop\奇迹世界2\GTR_RC_QJSJ2\GTR_RC_QJSJ2\bin\Release\GTR_RC_QJSJ2.pdb
+D:\Personal\Desktop\奇迹世界2\GTR_RC_QJSJ2\GTR_RC_QJSJ2\obj\Release\ResolveAssemblyReference.cache

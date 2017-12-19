@@ -1,0 +1,31 @@
+<OrderType>TradeOrder</OrderType>
+<OrderNO>JS20120200000000001</OrderNO>
+<OrderCreateTime>10 17 2012  9:16AM</OrderCreateTime>
+<OrderSubType>1</OrderSubType>
+<OrderExtInfo></OrderExtInfo>
+<GameId>13</GameId>
+<GameZone>天空之城</GameZone>
+<GameServer>天空之城</GameServer>
+<SellerAccount>1323589680</SellerAccount>
+<SellerPassword>jhlc5173</SellerPassword>
+<SellerIP>网络保留地址</SellerIP>
+<SellerRoleName>我是MM</SellerRoleName>
+<SellerItemId>魔石</SellerItemId>//游戏币.两
+<SellerItemNum>104000</SellerItemNum>
+<SellerMbkDirection>0</SellerMbkDirection>
+<SellerMbkString></SellerMbkString>
+<SellerMbkImage>JS20120200000000001.jpg</SellerMbkImage>
+<SellerSecondPwd>12345678</SellerSecondPwd>
+<SellerTradePwd>1       </SellerTradePwd>
+<SellerRolePwd></SellerRolePwd>
+<SellerRoleCamp>-1</SellerRoleCamp>
+<SellerRoleSex>0</SellerRoleSex>
+<SellerRoleProfession>血族</SellerRoleProfession>职业
+<SellerRoleLevel>128</SellerRoleLevel>ll真人ll
+<BuyerRoleName>我是MM</BuyerRoleName>
+<BuyerItemNum>1234567890</BuyerItemNum>
+<BuyerRoleId></BuyerRoleId>
+<BuyerRoleLevel>0</BuyerRoleLevel>
+<EncryptKey></EncryptKey>
+<Status>0</Status>
+<SafeCardPath>D:\game\zx2\Exec\SafeCard\JS20120200000000001.jpg</SafeCardPath>
