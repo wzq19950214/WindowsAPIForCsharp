@@ -1,0 +1,72 @@
+<BizOfferId>MZH-170413000001249</BizOfferId>
+<CreateTime>2013-03-29 09:35:22</CreateTime>
+<GameId>60</GameId>	<!-- GTR平台自己定义的游戏ID -->
+<GameName>英雄联盟</GameName>
+<GameArea>电信区</GameArea>
+<GameServer>诺克萨斯</GameServer>
+<SellerAccount>578229429</SellerAccount>
+<Value>True</Value>
+<!-- 卖家游戏账号ID ahchei -->
+<SellerPassword>zxm809751522</SellerPassword> <!-- qian2757 -->
+<RegInfos>
+	<RegInfoItem>
+		<!-- 注册资料项id  -->
+		<Id>645fghf7657575560</Id>
+		
+		<!-- 注册资料名称 -->
+		<Name>游戏账号</Name>
+		
+		<!-- 注册资料项值  -->
+		<Value>2747902166</Value> <!-- ahchei -->
+		
+		<!-- 验证状态  0：验证中  1：正确 2：错误-->
+		<Status>2236827728</Status>
+	</RegInfoItem>
+	<RegInfoItem>
+		<Id>645fghf7657575567</Id>
+		<Name>游戏密码</Name>
+		<Value>1234..cc</Value> <!-- qian2757 -->
+		<Status>1add1*one</Status>
+	</RegInfoItem>
+	<RegInfoItem>
+		<Id>645fghf7657575567</Id>
+		<Name>仓库密码</Name>
+		<Value>5173</Value>
+		<Status>0</Status>
+	</RegInfoItem>
+	<RegInfoItem>
+		<Id>645fghf7657575567</Id>
+		<Name>游戏角色名</Name>
+		<Value>╰半夜、伤不起</Value>
+		<Status>0</Status>
+	</RegInfoItem>
+        <RegInfoItem>
+                <Name>IsNeedRecognition</Name>
+                <Value>True</Value>
+        </RegInfoItem>
+</RegInfos>
+<Passpod_Id></Passpod_Id>(如果为空,没有密保,否则为订单号)
+<Passpod_Type>2</Passpod_Type>	<!-- 1=文字密保, 2=图片密保, 3=Flash密保 -->
+<Passpod_Content></Passpod_Content>
+<Passpod_Direction>-1</Passpod_Direction>
+<Passpod_Row>-1</Passpod_Row>
+<Passpod_Column>-1</Passpod_Column>
+<Passpod_Url>http://192.168.130.21:8888/2012U29.jpg</Passpod_Url>	<!-- 忽略. 不要使用 -->
+<Passpod_FlashPwd>123456</Passpod_FlashPwd>	<!-- Flash密保的密码(暂时不使用) -->
+<Status>0</Status>
+<SafeCardPath></SafeCardPath>	<!-- 图片密保路径 -->
+<CapturePath>C:\拼图\</CapturePath>		<!-- 截图所放目录 -->
+<GamePath>E:\program files\TGP\tgp_daemon.exe</GamePath>
+
+
+草船借箭 312532516@163.com   123456556699
+
+
+
+1826461563	njcwn8su87.		浙江1区
+福建1  1548786707 7777as 狂虎帝
+湖北1 2662694698 8888ss 武极
+
+湖北7  1936305569 8888ss 冰冻之心
+安徽3  1378902301  8888ss    大暗黑天    
+天津1  1765917975 8888ss 剑宗
